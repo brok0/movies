@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  background-color: gray;
+}
+header {
+  background-color: #098af3;
+  color: #ffffff;
+  padding: top 10px;
+  min-height: 30px;
+  border-bottom: black 2px solid;
+}
+p {
+  font-size: 3px;
+  margin-bottom: 10px;
+}
+img {
+  margin: 30%;
+  margin-right: 3%;
+}
+.images {
+  display: flex;
+  justify-content: space-around;
+}
