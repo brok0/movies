@@ -75,7 +75,7 @@ document.onclick = function(event) {
   const target = event.target;
 
   if (target.tagName.toLowerCase() === "img") {
-    //тут вибирається таргет потрібно вивантажити сторінку з картинкою,назвою і описом вибраного фільму + кілька рекомендацій
+    
     while (movieSearchable.firstChild) {
       movieSearchable.removeChild(movieSearchable.firstChild);
     }
@@ -150,5 +150,5 @@ function Show_movie(movieId) {
      
      `;
   recomendations.innerHTML += g;
-  //зробити клікабельні посилання на рекомендації
+  
 }
