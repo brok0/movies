@@ -1,3 +1,5 @@
+import "./src/styles.css"
+
 const searchButton = document.getElementById("search");
 const InputElement = document.getElementById("inputValue");
 const movieSearchable = document.querySelector("#movieSearchable");
